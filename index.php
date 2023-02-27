@@ -35,21 +35,6 @@ if (isset($data['do_login'])) { //обработка авторизации по
     <title>Журнал</title>
 </head>
 <body>
-    <div class="container"> <!-- СТРАРАЯ ФОРМА АВТОРИЗАЦИИ (без дизайна)-->
-<!--        <div>-->
-<!--            <form class="container-child" action="index.php" method="post">-->
-<!--                <input type="text" name="login" placeholder="Логин...">-->
-<!--                <input type="text" name="password" placeholder="Пароль...">-->
-<!--                --><?php
-//                if(!empty($errors)) {
-//                    echo '<div style="color: red;">';
-//                    echo array_shift($errors);
-//                    echo'</div>';
-//                }
-//                ?>
-<!--                <button id="to_main" name="do_login" type="submit" onclick="">ВОЙТИ</button>-->
-<!--            </form>-->
-<!--        </div>-->
         <div class="reg-win"> <!-- ФОРМА АВТОРИЗАЦИИ -->
             <form class="form-main" action="index.php" method="post">
                 <h1 class="form-title">Вход</h1>
